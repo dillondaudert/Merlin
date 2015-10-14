@@ -9,6 +9,7 @@ The lexical scanner is defined in flex.l
 ####Compile
 
 bison and flex must be installed on the machine
+
 `make`
 
 
