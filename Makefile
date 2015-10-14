@@ -1,13 +1,13 @@
 all: depend
-	gcc -g -lm TESTsymbol.tab.c lex.yy.c -o merlin
+	gcc -g -lm grammar.tab.c lex.yy.c -o merlin
 
 depend: bison flex
 
 bison:
-	bison -d TESTsymbol.y
+	bison -d grammar.y
 	
 flex:
-	flex TESTsymbol.l
+	flex flex.l
 	
 clean:
-	rm merlin TESTsymbol.tab.c lex.yy.c
+	rm merlin grammar.tab.* lex.yy.c

@@ -5,7 +5,7 @@ A		[a-zA-Z_0-9]
 E		([Ee][+-]?{D}+)
 
 %{
-#include "TESTsymbol.tab.h"
+#include "grammar.tab.h"
 #include <string.h>
 #include "symb.h"
 char buf[100]; //A buffer to copy strings into. STRING MAX SIZE IS 100
