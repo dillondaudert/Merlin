@@ -1,19 +1,20 @@
-##Merlin
-####A Programming Language written using Bison/Flex
+# Merlin
+
+## A Programming Language written using Bison/Flex
 
 
 The Bison grammar is defined in grammar.y
 The lexical scanner is defined in flex.l
 
 
-####Compile
+## Compile
 
 bison and flex must be installed on the machine
 
 `make`
 
 
-####Merlin syntax
+## Merlin syntax
 
 Merlin is an interpreter with a novel, themed syntax. Features included are: 
 - dynamic typing
@@ -48,7 +49,8 @@ b = 4.4
 a = a + b //Equals 7.4
 ```
 
-####Notes
+## Notes
+
 The language is not quite polished. There are a few errors.
 
 For one, unnamed values are saved in the symbol table but are re-referentiable
